@@ -21,7 +21,7 @@ npm install --save-dev babel-jest @babel/preset-env @babel/preset-react
 Also install the JS DOM environment:
 
 ```bash
-npm install --save-dev jest-environment-jsdom
+npm install --save-dev jest-environment-jsdom util
 ```
 
 ---
@@ -80,6 +80,11 @@ module.exports = {
 
 ```js
 // jest.setup.js
+// jest.setup.js
+import { TextEncoder, TextDecoder } from 'util'
+
+global.TextEncoder = TextEncoder;
+global.TextDecoder = TextDecoder;
 import '@testing-library/jest-dom';
 ```
 
