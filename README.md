@@ -7,7 +7,7 @@ A complete setup guide for adding Jest, Testing Library, and Babel for testing R
 ## 📦 Step 1: Install Testing Libraries
 
 ```bash
-npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event @testing-library/dom
 ```
 
 ---
@@ -21,7 +21,7 @@ npm install --save-dev babel-jest @babel/preset-env @babel/preset-react
 Also install the JS DOM environment:
 
 ```bash
-npm install --save-dev jest-environment-jsdom util identity-obj-proxy
+npm install --save-dev jest-environment-jsdom util identity-obj-proxy 
 ```
 
 ---
