@@ -21,7 +21,7 @@ npm install --save-dev babel-jest @babel/preset-env @babel/preset-react
 Also install the JS DOM environment:
 
 ```bash
-npm install --save-dev jest-environment-jsdom util
+npm install --save-dev jest-environment-jsdom util identity-obj-proxy
 ```
 
 ---
